@@ -3,6 +3,7 @@ def turn_count(board)
   board.each do |space_content|
     if space_content == "X" || space_content == "O"
       turns_played += 1
+    end
   end
 end
 
